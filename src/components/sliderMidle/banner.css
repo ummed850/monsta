@@ -1,0 +1,15 @@
+div[class*="flex"][class*="bottom"] button {
+    background-color: #facc15 !important;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    opacity: 1 !important;
+    transition: all 0.3s ease;
+}
+
+/* Active dot */
+div[class*="flex"][class*="bottom"] button[aria-current="true"] {
+    background-color: #ea580c !important;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
