@@ -1,0 +1,9 @@
+.slick-dots {
+    @apply flex justify-center mt-10 gap-2;
+}
+
+
+.slick-dots li button:before {
+    content: '';
+    @apply block w-2 h-2 my-5 rounded-full bg-orange-300 transition-all duration-300;
+}

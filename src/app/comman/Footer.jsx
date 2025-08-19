@@ -9,7 +9,6 @@ export default function Footer() {
     return (
         <div className='w-full'>
             <div className='max-w-[1480px] py-16 mx-auto border-b border-gray-200'>
-
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-5 '>
                     <div >
                         <div>
@@ -55,7 +54,7 @@ export default function Footer() {
                             </h2>
                         </div>
                         <div className='font-medium text-[#808080]'>
-                            <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)]'>About Us</p>
+                            <Link href={'/details-page/about-us'}>  <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)]'>About Us</p> </Link>
                             <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)]'>Contact Us</p>
                             <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)]'>Frequently Questions</p>
                         </div>
@@ -67,11 +66,11 @@ export default function Footer() {
                         </div>
                         <div>
                             <div className='font-medium text-[#808080]'>
-                                <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>My Dashboard</p>
-                                <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Wishlist</p>
-                                <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Cart</p>
-                                <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Checkout
-                                </p>
+                                <Link href={'/details-page/dashboard-profile'}>  <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>My Dashboard</p> </Link>
+                                <Link href={'/details-page/wishlist'}>  <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Wishlist</p> </Link>
+                                <Link href={'/details-page/cart'}> <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Cart</p></Link>
+                                <Link href={'/details-page/checkout'}> <p className='py-1 hover:bg-gray-200 hover:text-[rgb(192,149,120)] w-40'>Checkout
+                                </p></Link>
                             </div>
                         </div>
 

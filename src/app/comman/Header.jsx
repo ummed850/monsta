@@ -100,7 +100,7 @@ export default function Header() {
 
                         <div>
                             <Link href="/">
-                                <img src="./images/logo.png" alt="logo" width={150} />
+                                <img src="https://wscubetech.co/Assignments/furniture/storage/app/public/uploads/images/company-profile/logo/cccfbdab-3bec-439f-88b9-5694698cd302-1670132652.png" alt="logo" width={150} />
                             </Link>
                         </div>
 
@@ -150,7 +150,7 @@ export default function Header() {
 
                 <div>
 
-                    <div className='max-w-[550px] mx-auto'>
+                    <div className='max-w-[100%] shadow mx-auto border-b'>
                         <ul className='flex gap-10 justify-center font-sans'>
                             <Link href={"/"}> <li className='text-[13px] hover:text-orange-400 font-semibold cursor-pointer py-5'>HOME
 

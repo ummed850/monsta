@@ -25,15 +25,15 @@ export default function LoginPage() {
 
 
           {/* Customer Login Area */}
-          <div className="pb-16">
-            <div className="container mx-auto">
+          <div className="pb-16 bg-gradient-to-r from-[#833AB4]/70 via-[#FD1D1D]/65 via-45% via-[#FD4628]/60 via-71% via-[#FD6631]/65 to-[#FCB045]/60">
+            <div className="max-w-[1380px] mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 {/* Login Section */}
                 <div className="account_form">
-                  <h2 className="hover:text-orange-400 text-center text-2xl font-serif font-semibold text-gray-800 capitalize mb-8 py-8">
-                    login
+                  <h2 className="hover:text-purple-400 text-center text-2xl font-serif font-semibold text-white capitalize mb-8 py-8">
+                    *login*
                   </h2>
-                  <form action="#" className="border border-gray-200 rounded-md p-6">
+                  <form action="#" className="border border-gray-200 rounded-md p-6 bg-[linear-gradient(90deg,rgba(132,81,166,0.49)_0%,rgba(168,245,54,0.44)_27%,rgba(253,29,29,0.56)_50%,rgba(253,229,48,0.53)_78%,rgba(71,67,125,0.47)_100%)]">
                     <p className="mb-6">
                       <label htmlFor="login-username" className="block text-gray-700 text-sm font-semibold mb-2 cursor-pointer hover:text-brown-500">
                         Username or email <span className="text-red-500">*</span>
@@ -55,7 +55,7 @@ export default function LoginPage() {
                       />
                     </p>
                     <div className="login_submit text-right md:text-right">
-                      <a href="#" className="text-sm text-gray-600 hover:text-brown-500 float-left md:float-left leading-10 md:leading-10 mb-5 md:mb-0">
+                      <a href="#" className="text-sm text-gray-200 hover:text-brown-500 float-left md:float-left leading-10 md:leading-10 mb-5 md:mb-0">
                         Lost your password?
                       </a>
                       <label htmlFor="remember" className="inline-flex items-center text-gray-700 text-sm mr-4">
@@ -64,7 +64,7 @@ export default function LoginPage() {
                       </label>
                       <button
                         type="submit"
-                        className="bg-[#c09578] hover:bg-brown-700 text-white font-semibold text-sm h-9 px-5 rounded-full transition-colors duration-300 ml-4"
+                        className="bg-[#9129e6] hover:bg-gray-700 text-white font-semibold text-sm h-9 px-5 rounded-full transition-colors duration-300 ml-4"
                       >
                         login
                       </button>
@@ -73,11 +73,11 @@ export default function LoginPage() {
                 </div>
 
                 {/* Register Section */}
-                <div className="account_form mt-14 md:mt-0">
+                <div className="account_form mt-14 md:mt-0 ">
                   <h2 className="text-center hover:text-orange-400 text-2xl font-serif py-8 font-semibold text-gray-800 capitalize mb-8">
-                    Register
+                    *Register*
                   </h2>
-                  <form action="#" method="post" className="border border-gray-200 rounded-md p-6">
+                  <form action="#" method="post" className="border border-gray-200 rounded-md p-6 bg-[linear-gradient(90deg,rgba(78,23,115,0.72)_0%,rgba(78,158,74,0.49)_23%,rgba(173,66,163,0.62)_44%,rgba(156,61,26,0.68)_71%,rgba(189,127,40,0.62)_93%)]">
                     <p className="mb-6">
                       <label htmlFor="register-email" className="block text-gray-700 text-sm font-semibold mb-2 cursor-pointer hover:text-brown-500">
                         Email address <span className="text-red-500">*</span>
@@ -115,7 +115,7 @@ export default function LoginPage() {
                       </div>
                     </p>
 
-                    <div className="mb-6">
+                    {/* <div className="mb-6">
                       <label className="block text-gray-700 text-sm font-semibold mb-2 cursor-pointer hover:text-brown-500">
                         OTP <span className="text-red-500">*</span>
                       </label>
@@ -124,18 +124,18 @@ export default function LoginPage() {
                         type="number"
                         placeholder="ENTER YOUR OTP"
                       />
-                    </div>
+                    </div> */}
 
                     <div className="login_submit text-right">
                       <button
                         type="button"
-                        className="bg-[#c09578] font-bold hover:bg-gray-400 text-white text-sm h-9 px-5 rounded-full transition-colors duration-300 mr-4"
+                        className="bg-[#3fd779] font-bold hover:bg-gray-400 text-white text-sm h-9 px-5 rounded-full transition-colors duration-300 mr-4"
                       >
                         Get Otp
                       </button>
                       <button
                         type="submit"
-                        className="hover:bg-[#54d481] bg-[#c09578] text-white font-bold text-sm h-9 px-5 rounded-full transition-colors duration-300"
+                        className="hover:bg-[#54d481] bg-[#edd550] text-white font-bold text-sm h-9 px-5 rounded-full transition-colors duration-300"
                       >
                         Register
                       </button>
